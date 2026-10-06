@@ -1,0 +1,188 @@
+{
+  "currency": "₹",
+  "journeys": [
+    {
+      "slug": "goa",
+      "title": "Goa, Unhurried",
+      "category": "Island escape",
+      "days": 4,
+      "budget": 20000,
+      "tags": ["Coastal"],
+      "image": "1506929562872-bb421503ef21",
+      "alt": "Turquoise bay with boats seen from above",
+      "season": "November to February",
+      "stay": "Beachside villa",
+      "lede": "Four slow days on the North Goa coast, planned around the forecast: beaches on the clear mornings, old Portuguese quarters and long lunches when the rain rolls in.",
+      "overview": [
+        "Goa rewards a loose plan. We base you in a quiet villa a short walk from Calangute, so mornings can start on an empty beach and nothing on the itinerary is more than a short drive away.",
+        "Every day is checked against the live forecast before you arrive. The outdoor days sit on the clear ones, the indoor days are saved for showers, and any of them can be swapped with a message."
+      ],
+      "notes": [
+        {"label": "Rain plan", "text": "If the forecast turns, day two swaps with day three: the forts wait for a clear day while the churches, markets and a cooking class fill the wet one."},
+        {"label": "Getting around", "text": "A driver is arranged for the forts and Old Goa. Beach days are on foot from the villa."}
+      ],
+      "budget_breakdown": [
+        {"label": "Stay", "amount": 8000},
+        {"label": "Food", "amount": 5000},
+        {"label": "Getting around", "amount": 3000},
+        {"label": "Experiences", "amount": 4000}
+      ],
+      "itinerary": [
+        {"title": "Arrive and unwind", "setting": "Outdoor", "text": "Airport pickup, a late breakfast at the villa, and a first walk on Calangute beach at the end of the day. Dinner is grilled fish at a shack on the sand."},
+        {"title": "Forts and sunsets", "setting": "Outdoor", "text": "Fort Aguada and its lighthouse in the morning light, a swim at Sinquerim, then Chapora Fort at sunset for the view over Vagator."},
+        {"title": "Old Goa and Fontainhas", "setting": "Mixed", "text": "A guided walk through the Basilica of Bom Jesus and the Latin Quarter of Panjim, with a long Goan lunch between. A good day to give to the rain if it comes."},
+        {"title": "Spice farm and farewell", "setting": "Mixed", "text": "A morning at a spice plantation near Ponda with lunch served on banana leaf, then a last swim before your evening transfer."}
+      ]
+    },
+    {
+      "slug": "jaipur",
+      "title": "Jaipur in Three Days",
+      "category": "Heritage",
+      "days": 3,
+      "budget": 15000,
+      "tags": ["Palaces"],
+      "image": "1477587458883-47145ed94245",
+      "alt": "The pink sandstone facade of Hawa Mahal in Jaipur",
+      "season": "October to March",
+      "stay": "Restored haveli",
+      "lede": "Three days across the Pink City: forts at first light, bazaars in the cool of the evening, and the hottest hours spent indoors where the palaces keep their courtyards shaded.",
+      "overview": [
+        "Jaipur is best seen early and late. We start your days before the crowds reach Amer Fort and finish them in the old city bazaars, leaving the middle of the day for shade, lunch and a rest.",
+        "You stay in a restored haveli inside the old city, so the walk to the City Palace and Hawa Mahal is short and the evenings stay quiet."
+      ],
+      "notes": [
+        {"label": "Rain plan", "text": "Rain in Jaipur is brief but heavy. On a wet day the fort moves to the afternoon, and the workshop, a museum and a long lunch take the morning."},
+        {"label": "Heat", "text": "From March the afternoons get hot. We keep the middle of every day indoors and in the shade."}
+      ],
+      "budget_breakdown": [
+        {"label": "Stay", "amount": 6000},
+        {"label": "Food", "amount": 3500},
+        {"label": "Getting around", "amount": 2500},
+        {"label": "Entry and experiences", "amount": 3000}
+      ],
+      "itinerary": [
+        {"title": "Amer Fort at first light", "setting": "Outdoor", "text": "Beat the heat and the tour buses up to Amer Fort, then the stepwell at Panna Meena ka Kund. An afternoon rest at the haveli, and dinner on a rooftop facing Nahargarh."},
+        {"title": "Palaces and the old city", "setting": "Mixed", "text": "The City Palace and Jantar Mantar in the morning, Hawa Mahal from a café across the street, and the Johari and Bapu bazaars once the sun drops."},
+        {"title": "Block prints and a farewell thali", "setting": "Indoor", "text": "A hands-on block-printing workshop in Sanganer, a long thali lunch, and your transfer to the airport or station."}
+      ]
+    },
+    {
+      "slug": "paris",
+      "title": "Paris, Slowly",
+      "category": "City break",
+      "days": 7,
+      "budget": null,
+      "tags": ["Boutique", "Culinary"],
+      "image": "1502602898657-3e91760cbb34",
+      "alt": "The Eiffel Tower rising above the Seine at dusk",
+      "season": "April to June, September to October",
+      "stay": "Boutique hotel, Left Bank",
+      "lede": "A week in Paris with nothing hurried: one anchor a day at most, long lunches, and a boutique hotel on a street where you can hear the bakery open.",
+      "overview": [
+        "Paris disappoints people who try to see all of it. We give you one anchor a day, a museum, a market or a neighbourhood, and leave the rest of the hours open for wandering.",
+        "The weather turns quickly, so each outdoor day has an indoor twin planned, a gallery or a covered passage, that we can swap in on the morning."
+      ],
+      "notes": [
+        {"label": "Rain plan", "text": "Orsay or the covered passages stand in for the river walk, and the cooking class can move to any wet morning."},
+        {"label": "Budget", "text": "Paris is one of the pricier cities we plan. Give us your budget and we will tell you plainly whether a week fits it."}
+      ],
+      "budget_breakdown": [],
+      "itinerary": [
+        {"title": "Arrive in the Marais", "setting": "Mixed", "text": "Check in, then a first walk through the Marais and the Place des Vosges. Dinner at a neighbourhood bistro, booked for you."},
+        {"title": "The Louvre, early", "setting": "Indoor", "text": "The Louvre on a timed entry before the crowds, lunch in the Palais-Royal gardens, and a quiet afternoon."},
+        {"title": "Left Bank and Saint-Germain", "setting": "Outdoor", "text": "Bookshops, the Luxembourg Gardens and a long café afternoon in Saint-Germain, with a jazz club in the evening."},
+        {"title": "Markets and a cooking class", "setting": "Indoor", "text": "A morning at the Marché d'Aligre, then a hands-on cooking class that turns the market haul into lunch."},
+        {"title": "Montmartre", "setting": "Outdoor", "text": "Up the hill before the crowds, the vineyard and quiet streets behind the Place du Tertre, and the view from Sacré-Cœur at golden hour."},
+        {"title": "Orsay and the Seine", "setting": "Mixed", "text": "The Musée d'Orsay in the morning, a river walk from the Pont des Arts to the Île de la Cité, and an evening boat on the Seine."},
+        {"title": "A last croissant", "setting": "Mixed", "text": "A slow breakfast, last-minute shopping in the covered passages, and your transfer to the airport."}
+      ]
+    },
+    {
+      "slug": "kyoto",
+      "title": "Kyoto After Dark",
+      "category": "Culture",
+      "days": 5,
+      "budget": null,
+      "tags": ["Ryokan", "Temples"],
+      "image": "1493976040374-85c8e12f0c0e",
+      "alt": "A pagoda and a quiet lane in Kyoto at dusk",
+      "season": "March to May, October to November",
+      "stay": "Traditional ryokan",
+      "lede": "Five days in Kyoto built around the quiet hours: temples after the tour groups leave, lantern-lit lanes in Gion, and nights in a ryokan with a hot bath and a kaiseki dinner.",
+      "overview": [
+        "Kyoto has two faces, the crowded daytime city and the quiet evening one. We plan your days around the second, with long rests in the afternoon and temple visits timed for the late, low light.",
+        "You stay in a small ryokan with futon beds, a bath and a kaiseki dinner served at the inn. Almost everything else is a short walk or taxi ride away."
+      ],
+      "notes": [
+        {"label": "Rain plan", "text": "Kyoto is lovely in light rain and the temples are quieter for it. On wet days Arashiyama and the tea ceremony take the place of the open-air walks."},
+        {"label": "Seasonal lights", "text": "Evening illuminations at some temples run only in spring and autumn. We confirm the dates when we plan your trip."}
+      ],
+      "budget_breakdown": [],
+      "itinerary": [
+        {"title": "Arrive and settle", "setting": "Indoor", "text": "Transfer to your ryokan, tea in the room, a soak in the bath, and your first kaiseki dinner."},
+        {"title": "Fushimi Inari at dusk", "setting": "Outdoor", "text": "The torii gates of Fushimi Inari after the day-trippers have gone. The path stays open all night, so you can walk as far as you like. Late ramen near the station."},
+        {"title": "Higashiyama and Gion", "setting": "Outdoor", "text": "Kiyomizu-dera and the stone lanes of Higashiyama in the late afternoon, then an evening walk through Gion and dinner on Pontocho."},
+        {"title": "Arashiyama, then tea", "setting": "Mixed", "text": "The bamboo grove and Tenryu-ji early, a calm afternoon with a private tea ceremony, and a quiet night at the ryokan."},
+        {"title": "Nijo Castle and departure", "setting": "Indoor", "text": "Nijo Castle and its nightingale floors when it opens, then your transfer to the airport."}
+      ]
+    },
+    {
+      "slug": "alps",
+      "title": "Above the Clouds",
+      "category": "Mountain",
+      "days": 6,
+      "budget": null,
+      "tags": ["Chalet", "Alpine"],
+      "image": "1506905925346-21bda4d32df4",
+      "alt": "Mountain peaks above a sea of cloud at sunrise",
+      "season": "June to September",
+      "stay": "Private chalet",
+      "lede": "Six days in a mountain chalet above the Lauterbrunnen valley, with big-sky hikes on the clear days and a warm fire, a fondue and a long book on the grey ones.",
+      "overview": [
+        "The mountains make their own weather, so this is the trip where the forecast matters most. We hold every high-altitude day loosely and keep a valley alternative for each of them.",
+        "You stay in a private chalet with a kitchen and a view. The fridge is stocked before you arrive, and each morning we look at the forecast and tell you which day to spend up high."
+      ],
+      "notes": [
+        {"label": "Rain plan", "text": "Each high day has a valley alternative. If cloud closes in, Schynige Platte and Mürren swap with Trümmelbach Falls and the cheese tasting, and the cable-car days move to the clear ones."},
+        {"label": "Season", "text": "Trains and lifts to the high viewpoints run from late spring to autumn, and some close for the winter."}
+      ],
+      "budget_breakdown": [],
+      "itinerary": [
+        {"title": "Arrival by train", "setting": "Outdoor", "text": "The scenic rail up to the valley, the chalet handover, and a first walk to the village for supplies. An early night."},
+        {"title": "The valley floor", "setting": "Outdoor", "text": "A flat walk past Staubbach Falls and through the meadows to Stechelberg. An easy day to find your legs."},
+        {"title": "Schynige Platte", "setting": "Outdoor", "text": "The cog railway to Schynige Platte and the ridge walk, with views over the Eiger, Mönch and Jungfrau. We pick this day for the clearest forecast."},
+        {"title": "The weather day", "setting": "Mixed", "text": "Trümmelbach Falls, which run inside the mountain, a cheese tasting in the valley, and an afternoon by the chalet fire. It moves to whichever day turns grey."},
+        {"title": "Mürren and Gimmelwald", "setting": "Outdoor", "text": "The cable car to Mürren and the high path to Gimmelwald, with lunch on a terrace facing the Jungfrau massif."},
+        {"title": "Last coffee, long train", "setting": "Mixed", "text": "Breakfast on the balcony, the chalet handover, and the train down the valley."}
+      ]
+    },
+    {
+      "slug": "santorini",
+      "title": "Santorini Light",
+      "category": "Island escape",
+      "days": 4,
+      "budget": null,
+      "tags": ["Cliffside", "Sailing"],
+      "image": "1533105079780-92b9be482077",
+      "alt": "White buildings above a deep blue sea in Santorini",
+      "season": "May to October",
+      "stay": "Cliffside cave suite",
+      "lede": "Four days on the caldera rim: a cliffside suite, a day under sail, and sunsets planned from the right seat in the right village.",
+      "overview": [
+        "Santorini is beautiful, and busy. We stay you in Imerovigli, above the crowds of Oia but with the same caldera view, and plan the sightseeing for early morning and late afternoon.",
+        "The summer wind can stop the boats on some afternoons, so the sailing day is held against the forecast and moved if the sea gets up."
+      ],
+      "notes": [
+        {"label": "Rain plan", "text": "Santorini is dry for most of the season. If the wind rises, the sailing day swaps with the winery visit and we move to a smaller boat or a drive along the coast."},
+        {"label": "Booking", "text": "Cliffside suites with a caldera view fill months ahead in July and August. The earlier you tell us the dates, the better the room."}
+      ],
+      "budget_breakdown": [],
+      "itinerary": [
+        {"title": "Arrive on the caldera rim", "setting": "Outdoor", "text": "Transfer to your cave suite, a swim in the plunge pool, and a first sunset from the terrace."},
+        {"title": "Fira to Oia on foot", "setting": "Outdoor", "text": "The cliff path from Fira through Firostefani and Imerovigli before the heat, ending with lunch and a late afternoon in Oia."},
+        {"title": "A day under sail", "setting": "Outdoor", "text": "A small catamaran around the caldera, with swims at the Red and White beaches, lunch on board, and a sunset return."},
+        {"title": "Wine and farewell", "setting": "Mixed", "text": "A tasting at a family winery among the vines of Pyrgos and Megalochori, a final lunch, and your transfer."}
+      ]
+    }
+  ]
+}

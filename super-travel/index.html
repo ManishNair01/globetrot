@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GlobeTrot — Private Travel Concierge</title>
+  <!-- Where the Streamlit concierge runs. Change this one value when the chatbot is deployed, then run `python super-travel/build.py` to copy it to the journey pages. -->
+  <meta name="chat-url" content="http://localhost:8501">
+  <meta name="description" content="GlobeTrot is a private travel concierge. Weather-checked itineraries, held to your budget, arranged in a day.">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23e4a4bd'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=50f6098507">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#top" aria-label="GlobeTrot, home">GlobeTrot</a>
+      <nav class="nav__menu" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="journeys/">Journeys</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn-pill" href="#contact" data-chat-link>Plan a trip</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="grid-12 hero__grid">
+        <div class="hero__copy">
+          <h1 class="display hero__title reveal">Travel<br><em>refined.</em></h1>
+          <p class="hero__lede reveal" style="--d:150ms">A private concierge for people who would rather be there than plan it. Weather-checked itineraries, held to your budget, arranged in a day.</p>
+          <a class="arrow-cta reveal" style="--d:300ms" href="#contact" data-chat-link>
+            Begin your journey
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="hero__media reveal" style="--d:200ms">
+          <figure class="hero__card">
+            <img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80" alt="The Taj Mahal seen through a sandstone archway at dusk" width="1200" height="1500">
+          </figure>
+          <div class="badge" role="img" aria-label="Number one: private concierge">
+            <span class="badge__num">01</span>
+            <span class="badge__label">Private<br>Concierge</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Services</p>
+          <h2 class="display section-title">What we<br><em>arrange</em></h2>
+        </div>
+
+        <div class="services__grid">
+          <article class="service reveal">
+            <svg class="service__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="17" cy="16" r="6"/><path d="M17 4v3M5 16h3M8.5 7.5l2 2M25.5 7.5l-2 2"/><path d="M15 41h20a7 7 0 0 0 .8-13.95A10 10 0 0 0 16.4 30 5.5 5.5 0 0 0 15 41z"/></svg>
+            <div>
+              <h3>Weather-wise plans</h3>
+              <p>Every day of your itinerary is written against the live forecast. Rain moves you indoors; sun sends you to the coast.</p>
+            </div>
+          </article>
+
+          <article class="service reveal" style="--d:120ms">
+            <svg class="service__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 14h29a3 3 0 0 1 3 3v22a3 3 0 0 1-3 3H11a3 3 0 0 1-3-3V14z"/><path d="M8 14l24-8v8"/><circle cx="32" cy="28" r="2.5"/></svg>
+            <div>
+              <h3>Budget guardrails</h3>
+              <p>We total the estimated cost as we plan, and tell you plainly when a trip will not fit the number you gave us.</p>
+            </div>
+          </article>
+
+          <article class="service reveal" style="--d:240ms">
+            <svg class="service__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="18"/><path d="M31.5 16.5l-4.7 10.3-10.3 4.7 4.7-10.3z"/></svg>
+            <div>
+              <h3>Private concierge</h3>
+              <p>One point of contact from first idea to last transfer. Ask for a change on day two and it is handled.</p>
+            </div>
+          </article>
+
+          <article class="service reveal">
+            <svg class="service__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 22L24 7l18 15"/><path d="M11 19v22h26V19"/><path d="M20 41V29h8v12"/></svg>
+            <div>
+              <h3>Villas &amp; stays</h3>
+              <p>A short list of properties we would stay in ourselves, chosen for the room, the light, and the quiet.</p>
+            </div>
+          </article>
+
+          <article class="service reveal" style="--d:120ms">
+            <svg class="service__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 5v12a5 5 0 0 0 5 5v21M24 5v12a5 5 0 0 1-5 5M9 5v12a5 5 0 0 0 5 5"/><path d="M36 43V5c-5 3-8 9-8 16v6h8"/></svg>
+            <div>
+              <h3>Curated dining</h3>
+              <p>Tables held at the places locals book, from the corner thali counter to the tasting menu that takes a month to get.</p>
+            </div>
+          </article>
+
+          <article class="service reveal" style="--d:240ms">
+            <svg class="service__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M42 8L4 22l14 6 6 14z"/><path d="M42 8L18 28"/></svg>
+            <div>
+              <h3>Seamless transfers</h3>
+              <p>Flights, drivers, and boats lined up so that no leg of the trip is ever left for you to work out on the day.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="work" id="journeys">
+      <div class="container">
+        <div class="section-head section-head--split reveal">
+          <div>
+            <p class="eyebrow">Journeys</p>
+            <h2 class="display section-title">Selected<br><em>journeys</em></h2>
+          </div>
+          <p class="section-note">A few of the trips we have arranged recently, each built around the season, the forecast, and the budget.</p>
+        </div>
+
+        <div class="work__grid">
+          <!-- journeys:start -->
+          <article class="case reveal">
+            <div class="case__media">
+              <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1000&h=1333&q=80" alt="Turquoise bay with boats seen from above" loading="lazy" width="1000" height="1333">
+              <a class="case__view" href="journeys/goa/" aria-label="View journey: Goa, Unhurried"><span>View<br>Journey</span></a>
+            </div>
+            <div class="case__meta">
+              <p class="case__cat">Island escape</p>
+              <h3 class="case__title">Goa, Unhurried</h3>
+              <ul class="case__tags"><li>4 days</li><li>₹20,000</li><li>Coastal</li></ul>
+            </div>
+          </article>
+
+          <article class="case reveal" style="--d:120ms">
+            <div class="case__media">
+              <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1000&h=1333&q=80" alt="The pink sandstone facade of Hawa Mahal in Jaipur" loading="lazy" width="1000" height="1333">
+              <a class="case__view" href="journeys/jaipur/" aria-label="View journey: Jaipur in Three Days"><span>View<br>Journey</span></a>
+            </div>
+            <div class="case__meta">
+              <p class="case__cat">Heritage</p>
+              <h3 class="case__title">Jaipur in Three Days</h3>
+              <ul class="case__tags"><li>3 days</li><li>₹15,000</li><li>Palaces</li></ul>
+            </div>
+          </article>
+
+          <article class="case reveal">
+            <div class="case__media">
+              <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1000&h=1333&q=80" alt="The Eiffel Tower rising above the Seine at dusk" loading="lazy" width="1000" height="1333">
+              <a class="case__view" href="journeys/paris/" aria-label="View journey: Paris, Slowly"><span>View<br>Journey</span></a>
+            </div>
+            <div class="case__meta">
+              <p class="case__cat">City break</p>
+              <h3 class="case__title">Paris, Slowly</h3>
+              <ul class="case__tags"><li>7 days</li><li>Boutique</li><li>Culinary</li></ul>
+            </div>
+          </article>
+
+          <article class="case reveal" style="--d:120ms">
+            <div class="case__media">
+              <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1000&h=1333&q=80" alt="A pagoda and a quiet lane in Kyoto at dusk" loading="lazy" width="1000" height="1333">
+              <a class="case__view" href="journeys/kyoto/" aria-label="View journey: Kyoto After Dark"><span>View<br>Journey</span></a>
+            </div>
+            <div class="case__meta">
+              <p class="case__cat">Culture</p>
+              <h3 class="case__title">Kyoto After Dark</h3>
+              <ul class="case__tags"><li>5 days</li><li>Ryokan</li><li>Temples</li></ul>
+            </div>
+          </article>
+
+          <article class="case reveal">
+            <div class="case__media">
+              <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1000&h=1333&q=80" alt="Mountain peaks above a sea of cloud at sunrise" loading="lazy" width="1000" height="1333">
+              <a class="case__view" href="journeys/alps/" aria-label="View journey: Above the Clouds"><span>View<br>Journey</span></a>
+            </div>
+            <div class="case__meta">
+              <p class="case__cat">Mountain</p>
+              <h3 class="case__title">Above the Clouds</h3>
+              <ul class="case__tags"><li>6 days</li><li>Chalet</li><li>Alpine</li></ul>
+            </div>
+          </article>
+
+          <article class="case reveal" style="--d:120ms">
+            <div class="case__media">
+              <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1000&h=1333&q=80" alt="White buildings above a deep blue sea in Santorini" loading="lazy" width="1000" height="1333">
+              <a class="case__view" href="journeys/santorini/" aria-label="View journey: Santorini Light"><span>View<br>Journey</span></a>
+            </div>
+            <div class="case__meta">
+              <p class="case__cat">Island escape</p>
+              <h3 class="case__title">Santorini Light</h3>
+              <ul class="case__tags"><li>4 days</li><li>Cliffside</li><li>Sailing</li></ul>
+            </div>
+          </article>
+          <!-- journeys:end -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="grid-12 footer__grid">
+        <div class="footer__brand reveal">
+          <a class="footer__logo" href="#top">GlobeTrot</a>
+          <p>We design journeys for people who value time, quiet, and a little serendipity. Tell us where and roughly when, and we will handle the rest.</p>
+        </div>
+
+        <div class="footer__cols">
+          <div class="reveal" style="--d:100ms">
+            <h4 class="footer__head">Navigation</h4>
+            <ul>
+              <li><a href="#services">Services</a></li>
+              <li><a href="journeys/">Journeys</a></li>
+              <li><a href="#top" data-chat-link>Concierge</a></li>
+              <li><a href="mailto:hello@globetrot.example">Contact</a></li>
+            </ul>
+          </div>
+          <div class="reveal" style="--d:200ms">
+            <h4 class="footer__head">Social</h4>
+            <ul>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Pinterest</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="reveal" style="--d:300ms">
+            <h4 class="footer__head">Locations</h4>
+            <ul>
+              <li>Mumbai</li>
+              <li>Jaipur</li>
+              <li>Paris</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bar">
+        <p>&copy; 2026 GlobeTrot. All rights reserved.</p>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Cookies</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js?v=50f6098507"></script>
+</body>
+</html>

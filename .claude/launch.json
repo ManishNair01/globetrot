@@ -1,0 +1,41 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "super-travel",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "super-travel/serve.py",
+        "5173"
+      ],
+      "port": 5173
+    },
+    {
+      "name": "chatbot",
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": [
+        "-m",
+        "streamlit",
+        "run",
+        "app.py",
+        "--server.port",
+        "8501",
+        "--server.headless",
+        "true"
+      ],
+      "port": 8501
+    },
+    {
+      "name": "api",
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": [
+        "-m",
+        "uvicorn",
+        "api:app",
+        "--port",
+        "8000"
+      ],
+      "port": 8000
+    }
+  ]
+}
